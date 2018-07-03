@@ -1,0 +1,21 @@
+Basics:
+
+Exponentiation: **. This operator raises the number to its left to the power of the number to its right. For example 4**2 will give 16.
+
+Modulo: %. This operator returns the remainder of the division of the number to the left by the number on its right. For example 18 % 7 equals 4.
+
+Variable Assignment:  To create a variable use =
+
+
+variable types:
+int, or integer: a number without a fractional part.
+float, or floating point: a number that has both an integer and fractional part, separated by a point. 
+str, or string: a type to represent text. You can use single or double quotes to build a string.
+bool, or boolean: a type to represent logical values. Can only be True or False
+
+
+Type conversion:
+Use the + operator to paste together two strings.
+ 	to convert a value into a string. str(variable_name). Similar functions such as int(), float() and bool() will help you convert Python values into any type.
+
+
