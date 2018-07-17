@@ -19,3 +19,33 @@ Use the + operator to paste together two strings.
  	to convert a value into a string. str(variable_name). Similar functions such as int(), float() and bool() will help you convert Python values into any type.
 
 
+List:
+As opposed to int, bool etc., a list is a compound data type; you can group values together:
+
+a = "is"
+b = "nice"
+my_list = ["my", "list", a, b]
+
+A list can contain any Python type. But a list itself is also a Python type. That means that a list can also contain a list! 
+my_list = [el1, el2, el3]
+
+house = [["hallway", hall],
+         ["kitchen", kit],
+         ["living room", liv],
+         ["bedroom",bed],
+         ["bathroom",bath]]
+
+
+ can also use negative indexing.
+x = ["a", "b", "c", "d"]
+x[1]
+x[-3] # same result!
+
+
+It's possible to slice your list, which means selecting multiple elements from your list.
+my_list[start:end]
+The start index will be included, while the end index is not.
+If you don't specify the begin index, Python figures out that you want to start your slice at the beginning of your list. If you don't specify the end index, the slice will go all the way to the last element of your list.
+x[:2]   means from 0 to 1
+x[2:]	means from 2 to end
+x[:]	all
