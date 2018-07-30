@@ -49,3 +49,29 @@ If you don't specify the begin index, Python figures out that you want to start 
 x[:2]   means from 0 to 1
 x[2:]	means from 2 to end
 x[:]	all
+
+Subsetting lists of lists
+x = [["a", "b", "c"],
+     ["d", "e", "f"],
+     ["g", "h", "i"]]
+x[2][0]
+x[2][:2]
+x[2] results in a list, that you can subset again by adding additional square brackets.
+
+Replace list elements
+Subset the list and assign new values to the subset.
+x = ["a", "b", "c", "d"]
+x[1] = "r"
+x[2:] = ["s", "t"]
+
+Extend a list
+x = ["a", "b", "c", "d"]
+y = x + ["e", "f"]
+
+Delete list elements
+you can also remove elements from your list. You can do this with the del statement:
+x = ["a", "b", "c", "d"]
+del(x[1])
+
+Copying the list
+You can do this with list() or by using [:]
